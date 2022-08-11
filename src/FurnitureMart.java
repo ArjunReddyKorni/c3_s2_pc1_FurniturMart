@@ -22,5 +22,6 @@ public class FurnitureMart {
         if (furnitureUsage.equalsIgnoreCase("outdoor"))
             price = price - (price * discount / 100);
         return price;
+        ///////////////////////////
     }
 }
