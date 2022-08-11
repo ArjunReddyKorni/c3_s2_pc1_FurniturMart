@@ -5,8 +5,7 @@ public class FurnitureMartimpl {
 
         Scanner scanner = new Scanner(System.in);
         FurnitureMart object = new FurnitureMart();
-        double price = object.FurnitureItem();
-        System.out.println("price = " + price);
+
 
         System.out.println("Please select the type of the furniture,1.Tables,2.chairs,3.cupboards,4.stools");
         object.furnitureType = scanner.nextLine();
@@ -16,6 +15,11 @@ public class FurnitureMartimpl {
         object.colour = scanner.nextLine();
         System.out.println("please select the usage of the furniture,1.indoor,2.outddor");
         object.furnitureUsage = scanner.nextLine();
+        System.out.println("please enter the price of the product");
+        object.price = scanner.nextDouble();
+
+        double price = object.FurnitureItem();
+        System.out.println("price = " + price);
 
     }
 }
