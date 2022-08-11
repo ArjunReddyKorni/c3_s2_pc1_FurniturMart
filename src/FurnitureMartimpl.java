@@ -17,7 +17,7 @@ public class FurnitureMartimpl {
         object.furnitureUsage = scanner.nextLine();
         System.out.println("please enter the price of the product");
         object.price = scanner.nextDouble();
-        System.out.println("please enter the product code");
+        System.out.println("please enter the product Code");
         object.furnitureCode = scanner.nextInt();
 
         double price = object.FurnitureItem();
