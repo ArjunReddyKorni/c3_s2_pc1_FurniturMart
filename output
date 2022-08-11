@@ -1,0 +1,42 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\Pc\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\lib\idea_rt.jar=62622:C:\Users\Pc\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\bin -Dfile.encoding=UTF-8 -classpath C:\Users\Pc\OneDrive\Documents\Downloads\Course3\Sprint2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart FurnitureMartimpl
+Please select the type of the furniture,1.Tables,2.chairs,3.cupboards,4.stools
+Tables
+please select the grade of the furniture,1.Grade1,2.Grade2,3.Grde3
+Grade1
+please select the colour of the furniture,1.red,2.blue,3.green
+red
+please select the usage of the furniture,1.indoor,2.outdoor
+outdoor
+please enter the price of the product
+300
+price = 285.0
+furnitureType = Tables
+Grade = Grade1
+code = 5342
+Colour = red
+Usage = outdoor
+
+Process finished with exit code 0
+---------------------------------------------------------------------------------------------------
+
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\Pc\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\lib\idea_rt.jar=62641:C:\Users\Pc\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\222.3345.118\bin -Dfile.encoding=UTF-8 -classpath C:\Users\Pc\OneDrive\Documents\Downloads\Course3\Sprint2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart FurnitureMartimpl
+Please select the type of the furniture,1.Tables,2.chairs,3.cupboards,4.stools
+Chairs
+please select the grade of the furniture,1.Grade1,2.Grade2,3.Grade3
+Grade2
+please select the colour of the furniture,1.red,2.blue,3.green
+blue
+please select the usage of the furniture,1.indoor,2.outdoor
+indoor
+please enter the price of the product
+300
+please enter the product code
+2345
+price = 300.0
+furnitureType = Chairs
+Grade = Grade2
+code = 2345
+Colour = blue
+Usage = indoor
+
+Process finished with exit code 0
