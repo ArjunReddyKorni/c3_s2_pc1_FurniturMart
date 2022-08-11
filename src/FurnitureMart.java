@@ -9,12 +9,12 @@ public class FurnitureMart {
 
     FurnitureMart() {
 
-        int furnitureCode = 5342;
-        String furnitureType = "Table";
-        String gradeOfFurniture = "grade1";
-        String colour = "green";
-        String furnitureUsage = "outdoor";
-        double price = 300.0;
+        furnitureCode = 5342;
+        furnitureType = "Table";
+        gradeOfFurniture = "grade1";
+        colour = "green";
+        furnitureUsage = "outdoor";
+        price = 300.0;
     }
 
     public double FurnitureItem() {
