@@ -19,7 +19,7 @@ public class FurnitureMart {
 
     public double FurnitureItem() {
         double discount = 5.0;
-        if (furnitureUsage.equals("outdoor"))
+        if (furnitureUsage.equalsIgnoreCase("outdoor"))
             price = price - (price * discount / 100);
         return price;
     }
